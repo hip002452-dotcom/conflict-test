@@ -5,6 +5,19 @@
 
 using namespace std;
 
+
+
+
+
+
+aidalwd
+
+
+
+
+
+
+
 class Character {
 public:
     string name;
