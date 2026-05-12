@@ -34,8 +34,12 @@ int main() {
 
     srand(static_cast<unsigned int>(time(nullptr)));
 
-    Character player("kosei", 1000000, 20);
-    Character enemy("nomiya", 3, 15);
+    Character player("nomiya", 1000000, 20);
+    Character enemy("kosei", 3, 15);
+    Character enemy("riku", 3, 15);
+    Character enemy("koukiti", 3, 15);
+
+
 
     cout << "=== Mini Battle Game ===\n";
 
