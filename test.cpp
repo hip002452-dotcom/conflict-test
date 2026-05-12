@@ -33,9 +33,9 @@ void showStatus(const Character& player, const Character& enemy) {
 int main() {
 
     srand(static_cast<unsigned int>(time(nullptr)));
-    
+
     Character player("kosei", 100, 20);
-    Character enemy("Goblin", 80, 15);
+    Character enemy("nomiya", 3, 15);
 
     cout << "=== Mini Battle Game ===\n";
 
