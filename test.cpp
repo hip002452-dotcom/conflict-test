@@ -30,12 +30,19 @@ void showStatus(const Character& player, const Character& enemy) {
     cout << "==================\n";
 }
 
+void showStatus(const Character& player, const Character& enemy) {
+    cout << "\n===== STATUS =====\n";
+    cout << jin << " HP: " << player.hp << endl;
+    cout << riku << " HP: " << enemy.hp << endl;
+    cout << "==================\n";
+}
+
 int main() {
 
     srand(static_cast<unsigned int>(time(nullptr)));
-
+    
     Character player("kosei", 100, 20);
-    Character enemy("nomiya", 3, 15);
+    Character enemy("Goblin", 80, 15);
 
     cout << "=== Mini Battle Game ===\n";
 
